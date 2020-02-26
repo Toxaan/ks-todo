@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  padding-top: 5rem;  
+}
+
+.btnAdd {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.vse{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.perenos {
+  word-break:break-all;
+}
+
