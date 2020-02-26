@@ -5,7 +5,7 @@ import {Row, ListGroup, Container, Form, Button } from 'bootstrap-4-react';
 
 function App() { 
   return (
-    <Container className="wrapper">
+    <Container className="wrapper" >
       <Notes/>
     </Container>
   );
@@ -19,7 +19,8 @@ class Notes extends React.Component {
       note: [
         {name: "Встать"},
         {name: "Умыться"},
-        {name: "Покушать"}
+        {name: "Покушать"},
+        {name: "Поспать"}
       ],
       strNote: ""
     };
